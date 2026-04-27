@@ -1,0 +1,235 @@
+.club-nav-logo {
+    text-decoration: none;
+}
+
+.club-page-hero {
+    background: linear-gradient(135deg, var(--couleur-primaire) 0%, var(--couleur-bleu-roi) 100%);
+    color: white;
+    padding: 70px 20px;
+}
+
+.club-hero-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.club-logo-box {
+    background: white;
+    border-radius: 12px;
+    padding: 22px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.24);
+}
+
+.club-page-logo {
+    max-width: 100%;
+    max-height: 170px;
+    object-fit: contain;
+}
+
+.club-eyebrow {
+    color: var(--couleur-secondaire);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.club-hero-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 16px;
+}
+
+.club-resume {
+    max-width: 720px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.club-section {
+    padding: 55px 20px;
+    background: white;
+}
+
+.club-section-alt {
+    background: var(--couleur-fond);
+}
+
+.club-selector-line {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 28px;
+}
+
+.club-selector-line label {
+    color: var(--couleur-primaire);
+    font-weight: 700;
+}
+
+.club-page-select {
+    min-width: 240px;
+    padding: 12px;
+    border: 2px solid var(--couleur-secondaire);
+    border-radius: 8px;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.club-page-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.club-page-stat {
+    background: var(--couleur-fond);
+    border-top: 4px solid var(--couleur-secondaire);
+    border-radius: 8px;
+    padding: 26px;
+    text-align: center;
+}
+
+.club-page-stat-number {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    color: var(--couleur-primaire);
+    margin-bottom: 6px;
+}
+
+.club-page-stat-label {
+    color: #666;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.club-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.club-panel {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.club-panel h2,
+.club-section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--couleur-primaire);
+    margin-bottom: 22px;
+}
+
+.club-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.club-year-pill {
+    background: var(--couleur-primaire);
+    color: white;
+    border-radius: 999px;
+    padding: 8px 13px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.club-empty {
+    color: #666;
+    font-weight: 600;
+}
+
+.club-mini-chart {
+    display: grid;
+    gap: 18px;
+}
+
+.club-mini-row {
+    display: grid;
+    grid-template-columns: 120px 1fr 36px;
+    gap: 14px;
+    align-items: center;
+}
+
+.club-mini-row span,
+.club-mini-row strong {
+    color: var(--couleur-primaire);
+    font-weight: 700;
+}
+
+.club-mini-track {
+    height: 14px;
+    background: var(--couleur-fond);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.club-mini-fill {
+    width: 0;
+    height: 100%;
+    background: var(--couleur-secondaire);
+    border-radius: inherit;
+    transition: width 0.5s ease;
+}
+
+.club-mini-fill-alt {
+    background: var(--couleur-bleu-roi);
+}
+
+.club-table tbody tr.victoire {
+    background-color: rgba(40, 167, 69, 0.08);
+}
+
+.club-table tbody tr.defaite {
+    background-color: rgba(220, 53, 69, 0.06);
+}
+
+@media (max-width: 768px) {
+    .club-hero-layout {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .club-logo-box {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    .club-hero-text h1 {
+        font-size: 34px;
+    }
+
+    .club-page-stats,
+    .club-details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .club-selector-line {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .club-page-select {
+        width: 100%;
+    }
+
+    .club-mini-row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}

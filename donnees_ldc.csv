@@ -1,0 +1,71 @@
+edition;annee;vainqueur;finaliste;score;lieu;buts_vainqueur;pays_vainqueur;pays_finaliste;nb_titres_cumulés
+1;1956;Real Madrid;Stade Reims;4-3;Paris;4;Espagne;France;1
+2;1957;Real Madrid;Fiorentina;2-0;Madrid;2;Espagne;Italie;2
+3;1958;Real Madrid;AC Milan;3-2;Bruxelles;3;Espagne;Italie;3
+4;1959;Real Madrid;Stade Reims;2-0;Stuttgart;2;Espagne;France;4
+5;1960;Real Madrid;Eintracht Francfort;7-3;Glasgow;7;Espagne;Allemagne;5
+6;1961;Benfica;Barcelone;3-2;Berne;3;Portugal;Espagne;1
+7;1962;Benfica;Real Madrid;3-1;Amsterdam;3;Portugal;Espagne;2
+8;1963;AC Milan;Benfica;2-1;Wembley;2;Italie;Portugal;1
+9;1964;Inter Milan;Real Madrid;3-1;Vienne;3;Italie;Espagne;1
+10;1965;Inter Milan;Benfica;1-0;Milan;1;Italie;Portugal;2
+11;1966;Real Madrid;Partizan Belgrade;2-1;Bruxelles;2;Espagne;Yougoslavie;6
+12;1967;Celtic;Inter Milan;2-1;Lisbonne;2;Écosse;Italie;1
+13;1968;Manchester United;Benfica;4-1;Wembley;4;Angleterre;Portugal;1
+14;1969;AC Milan;Ajax;4-1;Madrid;4;Italie;Pays-Bas;2
+15;1970;Feyenoord;Celtic;2-1;Milan;2;Pays-Bas;Écosse;1
+16;1971;Ajax;Panathinaikos;2-0;Wembley;2;Pays-Bas;Grèce;1
+17;1972;Ajax;Inter Milan;2-0;Rotterdam;2;Pays-Bas;Italie;2
+18;1973;Ajax;Juventus;1-0;Belgrade;1;Pays-Bas;Italie;3
+19;1974;Bayern Munich;Atlético Madrid;4-0;Bruxelles;4;Allemagne;Espagne;1
+20;1975;Bayern Munich;Leeds United;2-0;Paris;2;Allemagne;Angleterre;2
+21;1976;Bayern Munich;Saint-Étienne;1-0;Glasgow;1;Allemagne;France;3
+22;1977;Liverpool;Borussia Mönchengladbach;3-1;Rome;3;Angleterre;Allemagne;1
+23;1978;Liverpool;Brugge;1-0;Wembley;1;Angleterre;Belgique;2
+24;1979;Nottingham Forest;Malmö;1-0;Munich;1;Angleterre;Suède;1
+25;1980;Nottingham Forest;Hambourg;1-0;Madrid;1;Angleterre;Allemagne;2
+26;1981;Liverpool;Real Madrid;1-0;Paris;1;Angleterre;Espagne;3
+27;1982;Aston Villa;Bayern Munich;1-0;Rotterdam;1;Angleterre;Allemagne;4
+28;1983;Hambourg;Juventus;1-0;Athènes;1;Allemagne;Italie;1
+29;1984;Liverpool;AS Rome;1-1 (4-2 TAB);Rome;1;Angleterre;Italie;4
+30;1985;Juventus;Liverpool;1-0;Bruxelles;1;Italie;Angleterre;1
+31;1986;Steaua Bucarest;Barcelone;0-0 (2-0 TAB);Séville;0;Roumanie;Espagne;1
+32;1987;Porto;Bayern Munich;2-1;Vienne;2;Portugal;Allemagne;1
+33;1988;PSV Eindhoven;Benfica;0-0 (6-5 TAB);Stuttgart;0;Pays-Bas;Portugal;1
+34;1989;AC Milan;Steaua Bucarest;4-0;Barcelone;4;Italie;Roumanie;3
+35;1990;AC Milan;Benfica;1-0;Vienne;1;Italie;Portugal;4
+36;1991;Crvena Zvezda;Marseille;0-0 (5-3 TAB);Bari;0;Yougoslavie;France;1
+37;1992;Barcelone;Sampdoria;1-0;Londres;1;Espagne;Italie;1
+38;1993;Marseille;AC Milan;1-0;Munich;1;France;Italie;1
+39;1994;AC Milan;Barcelone;4-0;Athènes;4;Italie;Espagne;5
+40;1995;Ajax;AC Milan;1-0;Vienne;1;Pays-Bas;Italie;4
+41;1996;Juventus;Ajax;1-1 (4-2 TAB);Rome;1;Italie;Pays-Bas;2
+42;1997;Borussia Dortmund;Juventus;3-1;Munich;3;Allemagne;Italie;1
+43;1998;Real Madrid;Juventus;1-0;Amsterdam;1;Espagne;Italie;7
+44;1999;Manchester United;Bayern Munich;2-1;Barcelone;2;Angleterre;Allemagne;2
+45;2000;Real Madrid;Valencia;3-0;Paris;3;Espagne;Espagne;8
+46;2001;Bayern Munich;Valencia;1-1 (5-4 TAB);Milan;1;Allemagne;Espagne;4
+47;2002;Real Madrid;Bayer Leverkusen;2-1;Glasgow;2;Espagne;Allemagne;9
+48;2003;AC Milan;Juventus;0-0 (3-2 TAB);Manchester;0;Italie;Italie;6
+49;2004;Porto;AS Monaco;3-0;Gelsenkirchen;3;Portugal;France;2
+50;2005;Liverpool;AC Milan;3-3 (3-2 TAB);Istanbul;3;Angleterre;Italie;5
+51;2006;Barcelone;Arsenal;2-1;Paris;2;Espagne;Angleterre;2
+52;2007;AC Milan;Liverpool;2-1;Athènes;2;Italie;Angleterre;7
+53;2008;Manchester United;Chelsea;1-1 (6-5 TAB);Moscou;1;Angleterre;Angleterre;3
+54;2009;Barcelone;Manchester United;2-0;Rome;2;Espagne;Angleterre;3
+55;2010;Inter Milan;Bayern Munich;2-0;Madrid;2;Italie;Allemagne;3
+56;2011;Barcelone;Manchester United;3-1;Wembley;3;Espagne;Angleterre;4
+57;2012;Chelsea;Bayern Munich;1-1 (4-3 TAB);Munich;1;Angleterre;Allemagne;1
+58;2013;Bayern Munich;Borussia Dortmund;2-1;Wembley;2;Allemagne;Allemagne;5
+59;2014;Real Madrid;Atlético Madrid;4-1;Lisbonne;4;Espagne;Espagne;10
+60;2015;Barcelone;Juventus;3-1;Berlin;3;Espagne;Italie;5
+61;2016;Real Madrid;Atlético Madrid;1-1 (5-3 TAB);Milan;1;Espagne;Espagne;11
+62;2017;Real Madrid;Juventus;4-1;Cardiff;4;Espagne;Italie;12
+63;2018;Real Madrid;Liverpool;3-1;Kiev;3;Espagne;Angleterre;13
+64;2019;Liverpool;Tottenham;2-0;Madrid;2;Angleterre;Angleterre;6
+65;2020;Bayern Munich;PSG;1-0;Lisbonne;1;Allemagne;France;6
+66;2021;Chelsea;Manchester City;1-0;Porto;1;Angleterre;Angleterre;2
+67;2022;Real Madrid;Liverpool;1-0;Paris;1;Espagne;Angleterre;14
+68;2023;Manchester City;Inter Milan;1-0;Istanbul;1;Angleterre;Italie;1
+69;2024;Real Madrid;Borussia Dortmund;2-0;Wembley;2;Espagne;Allemagne;15
+70;2025;PSG;Inter Milan;5-0;Munich;5;France;Italie;1

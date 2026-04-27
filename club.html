@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche club - Champions League</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/club.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar-sticky">
+    <div class="navbar-container">
+        <a href="/" class="navbar-logo club-nav-logo">
+            <img src="https://st4.depositphotos.com/20370054/26856/v/450/depositphotos_268569746-stock-illustration-champions-league-europe-official-logo.jpg" alt="Logo UCL" class="logo-img">
+            <span>Champions League</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="/" class="nav-btn">Accueil</a></li>
+            <li><a href="/#palmares" class="nav-btn">Palmarès</a></li>
+            <li><a href="/#clubs" class="nav-btn active">Clubs</a></li>
+            <li><a href="/#stats" class="nav-btn">Stats</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="club-page-hero">
+    <div class="container club-hero-layout">
+        <div class="club-logo-box">
+            <img id="club-logo" src="" alt="Logo du club" class="club-page-logo">
+        </div>
+        <div class="club-hero-text">
+            <p id="club-pays" class="club-eyebrow"></p>
+            <h1 id="club-nom">Chargement...</h1>
+            <p id="club-resume" class="club-resume"></p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="club-section">
+        <div class="container">
+            <div class="club-selector-line">
+                <label for="club-page-select">Changer de club</label>
+                <select id="club-page-select" class="club-page-select"></select>
+            </div>
+
+            <div class="club-page-stats">
+                <div class="club-page-stat">
+                    <span id="club-titres" class="club-page-stat-number">0</span>
+                    <span class="club-page-stat-label">Titres</span>
+                </div>
+                <div class="club-page-stat">
+                    <span id="club-finales" class="club-page-stat-number">0</span>
+                    <span class="club-page-stat-label">Finales</span>
+                </div>
+                <div class="club-page-stat">
+                    <span id="club-ratio" class="club-page-stat-number">0%</span>
+                    <span class="club-page-stat-label">Réussite en finale</span>
+                </div>
+                <div class="club-page-stat">
+                    <span id="club-derniere" class="club-page-stat-number">-</span>
+                    <span class="club-page-stat-label">Dernier titre</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section club-section-alt">
+        <div class="container club-details-grid">
+            <div class="club-panel">
+                <h2>Années victorieuses</h2>
+                <div id="club-annees" class="club-years"></div>
+            </div>
+            <div class="club-panel">
+                <h2>Résumé visuel</h2>
+                <div class="club-mini-chart">
+                    <div class="club-mini-row">
+                        <span>Victoires</span>
+                        <div class="club-mini-track">
+                            <div id="mini-victoires" class="club-mini-fill"></div>
+                        </div>
+                        <strong id="mini-victoires-valeur">0</strong>
+                    </div>
+                    <div class="club-mini-row">
+                        <span>Finales perdues</span>
+                        <div class="club-mini-track">
+                            <div id="mini-defaites" class="club-mini-fill club-mini-fill-alt"></div>
+                        </div>
+                        <strong id="mini-defaites-valeur">0</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container">
+            <h2 class="club-section-title">Finales remportées</h2>
+            <div class="tableau-wrapper">
+                <table class="palmares-table club-table">
+                    <thead>
+                        <tr>
+                            <th>Année</th>
+                            <th>Adversaire</th>
+                            <th>Score</th>
+                            <th>Lieu</th>
+                        </tr>
+                    </thead>
+                    <tbody id="club-titres-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section club-section-alt">
+        <div class="container">
+            <h2 class="club-section-title">Toutes les finales du club</h2>
+            <div class="tableau-wrapper">
+                <table class="palmares-table club-table">
+                    <thead>
+                        <tr>
+                            <th>Année</th>
+                            <th>Résultat</th>
+                            <th>Adversaire</th>
+                            <th>Score</th>
+                            <th>Lieu</th>
+                        </tr>
+                    </thead>
+                    <tbody id="club-finales-table"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2026 UEFA Champions League Project - NSI 1ère</p>
+        <p>Fiche générée avec JavaScript à partir des données du CSV</p>
+    </div>
+</footer>
+
+<script src="/club.js"></script>
+</body>
+</html>

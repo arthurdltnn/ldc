@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA Champions League - Palmarès complet</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATION STICKY -->
+<nav class="navbar-sticky">
+    <div class="navbar-container">
+        <div class="navbar-logo">
+            <img src="https://st4.depositphotos.com/20370054/26856/v/450/depositphotos_268569746-stock-illustration-champions-league-europe-official-logo.jpg" alt="Logo UCL" class="logo-img">
+            <span>Champions League</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-btn" data-section="hero">Accueil</a></li>
+            <li><a href="#histoire" class="nav-btn" data-section="histoire">Histoire</a></li>
+            <li><a href="#palmares" class="nav-btn" data-section="palmares">Palmarès</a></li>
+            <li><a href="#clubs" class="nav-btn" data-section="clubs">Clubs</a></li>
+            <li><a href="#comparateur" class="nav-btn" data-section="comparateur">Comparateur</a></li>
+            <li><a href="#stats" class="nav-btn" data-section="stats">Stats</a></li>
+            <li><a href="#quiz" class="nav-btn" data-section="quiz">Quiz</a></li>
+            <li><a href="#contact" class="nav-btn" data-section="contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- SECTION 1 : HERO -->
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <div class="hero-trophy">
+            <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/10d7/live/bcb7d310-3e68-11f0-835b-310c7b938e84.png.webp" alt="Trophée Champions League" class="trophy-img">
+        </div>
+        <div class="hero-text">
+            <h1 class="hero-title">UEFA CHAMPIONS LEAGUE</h1>
+            <p class="hero-subtitle">La plus grande compétition de football d'Europe</p>
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <span class="stat-number" id="nb-editions">70</span>
+                    <span class="stat-label">Éditions</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="nb-clubs">24</span>
+                    <span class="stat-label">Clubs vainqueurs</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="nb-pays">10</span>
+                    <span class="stat-label">Pays vainqueurs</span>
+                </div>
+            </div>
+            <button class="btn-hero" onclick="document.getElementById('histoire').scrollIntoView({behavior: 'smooth'})">Découvrir</button>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 2 : HISTOIRE -->
+<section id="histoire" class="section-histoire">
+    <div class="container">
+        <h2 class="section-title">⭐ Histoire de la Ligue des Champions</h2>
+        
+        <div class="histoire-texte">
+            <p>
+                La <strong>Ligue des Champions de l'UEFA</strong> est née en <strong>1955</strong> sous le nom de <strong>"Coupe des clubs champions européens"</strong>. 
+                Elle a été créée pour désigner le champion d'Europe du football en réunissant les meilleurs clubs du continent.
+            </p>
+            <p>
+                <strong>Real Madrid</strong> a remporté les cinq premières éditions consécutives (1956-1960), établissant une domination sans précédent.
+                Il a remporté la première finale en 1956 contre le Stade de Reims, puis a signé une finale légendaire en 1960 avec un 7-3 contre l'Eintracht Francfort.
+            </p>
+            <p>
+                En <strong>1992</strong>, la compétition a été profondément transformée avec l'introduction de la <strong>phase de groupes</strong> 
+                et a été renommée <strong>"UEFA Champions League"</strong>. Ce changement a marqué l'ère moderne de la compétition.
+            </p>
+            <p>
+                Aujourd'hui, la Ligue des Champions est <strong>la plus prestigieuse compétition continentale</strong> avec des matchs spectaculaires, 
+                des records individuels extraordinaires et une passion incomparable. 
+                L'<strong>hymne officiel</strong>, composé par Tony Britten, est devenu iconique à travers le monde.
+            </p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker">1955</div>
+                <div class="timeline-content">
+                    <h3>Création - Coupe des clubs champions</h3>
+                    <p>Naissance de la compétition pour les champions nationaux d'Europe</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">1956-1960</div>
+                <div class="timeline-content">
+                    <h3>Ère Real Madrid</h3>
+                    <p>Real Madrid remporte 5 titres consécutifs avec des performances légendaires</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">1992</div>
+                <div class="timeline-content">
+                    <h3>Refonte - Phase de groupes</h3>
+                    <p>Nouveau format, nouveau nom : UEFA Champions League. Introduction de la phase de groupes</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">2024-Aujourd'hui</div>
+                <div class="timeline-content">
+                    <h3>Format moderne</h3>
+                    <p>Passage à une phase de ligue avec 36 équipes et davantage d'affiches européennes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 3 : PALMARÈS -->
+<section id="palmares" class="section-palmares">
+    <div class="container">
+        <h2 class="section-title">🏆 Palmarès complet</h2>
+        
+        <div class="search-sort">
+            <input type="text" id="searchInput" placeholder="🔍 Rechercher par club ou année..." class="search-bar">
+        </div>
+
+        <div class="tableau-wrapper">
+            <table id="palmares-table" class="palmares-table">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-column="annee">Année</th>
+                        <th class="sortable" data-column="vainqueur">Vainqueur</th>
+                        <th class="sortable" data-column="finaliste">Finaliste</th>
+                        <th class="sortable" data-column="score">Score</th>
+                        <th class="sortable" data-column="lieu">Lieu</th>
+                    </tr>
+                </thead>
+                <tbody id="palmares-tbody">
+                    <tr><td colspan="5" style="text-align: center; padding: 20px;">Chargement des données...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4 : CLUBS LÉGENDAIRES -->
+<section id="clubs" class="section-clubs">
+    <div class="container">
+        <h2 class="section-title">👑 Les Clubs Légendaires</h2>
+        <div class="clubs-grid" id="clubs-grid">
+            <!-- Les cartes seront générées en JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5 : COMPARATEUR -->
+<section id="comparateur" class="section-comparateur">
+    <div class="container">
+        <h2 class="section-title">⚔️ Comparateur de Clubs</h2>
+        
+        <div class="comparateur-form">
+            <div class="form-group">
+                <label for="club1">Sélectionnez le club 1 :</label>
+                <select id="club1" class="club-select"></select>
+            </div>
+            <div class="form-group">
+                <label for="club2">Sélectionnez le club 2 :</label>
+                <select id="club2" class="club-select"></select>
+            </div>
+            <button class="btn-comparer" onclick="comparerClubs()">Comparer</button>
+        </div>
+
+        <div id="comparaison-resultat" class="comparaison-resultat" style="display: none;">
+            <div class="comparison-card">
+                <div class="club-comparison">
+                    <div class="club-comp-item">
+                        <h3 id="club1-nom"></h3>
+                        <div class="stat-comparison">
+                            <span id="club1-titres"></span> titres
+                            <div class="progress-bar">
+                                <div id="club1-progress" class="progress-fill"></div>
+                            </div>
+                        </div>
+                        <div class="stat-comparison">
+                            <span id="club1-finales"></span> finales
+                        </div>
+                        <div class="stat-comparison">
+                            <span id="club1-derniere"></span>
+                        </div>
+                    </div>
+                    <div class="club-comp-item">
+                        <h3 id="club2-nom"></h3>
+                        <div class="stat-comparison">
+                            <span id="club2-titres"></span> titres
+                            <div class="progress-bar">
+                                <div id="club2-progress" class="progress-fill"></div>
+                            </div>
+                        </div>
+                        <div class="stat-comparison">
+                            <span id="club2-finales"></span> finales
+                        </div>
+                        <div class="stat-comparison">
+                            <span id="club2-derniere"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 6 : STATISTIQUES -->
+<section id="stats" class="section-stats">
+    <div class="container">
+        <h2 class="section-title">📊 Statistiques et Records</h2>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Club le plus titré</h3>
+                <p id="record-club" class="record-value">Real Madrid</p>
+                <span id="record-titres" class="record-detail">15 titres</span>
+            </div>
+            <div class="stat-card">
+                <h3>Pays le plus titré</h3>
+                <p id="record-pays" class="record-value">Espagne</p>
+                <span id="record-pays-count" class="record-detail">20 titres</span>
+            </div>
+            <div class="stat-card">
+                <h3>Plus Grande Victoire</h3>
+                <p id="record-victoire" class="record-value">5-0</p>
+                <span id="record-victoire-detail" class="record-detail">PSG 2025</span>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 40px; margin-bottom: 20px;">Top 10 des clubs les plus titrés</h3>
+        <div class="chart-container">
+            <div class="chart" id="chart">
+                <!-- Graphique en barres CSS généré en JavaScript -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 7 : QUIZ -->
+<section id="quiz" class="section-quiz">
+    <div class="container">
+        <h2 class="section-title">🎯 Quiz Champions League</h2>
+        
+        <div class="quiz-container" id="quiz-container">
+            <div class="quiz-question">
+                <p id="quiz-question-text"></p>
+                <div class="quiz-options" id="quiz-options"></div>
+                <p id="quiz-feedback" class="quiz-feedback"></p>
+                <button class="btn-quiz" onclick="nextQuestion()">Question Suivante</button>
+            </div>
+        </div>
+        
+        <div id="quiz-result" class="quiz-result" style="display: none;">
+            <h3>Résultat Final</h3>
+            <p id="quiz-score-text"></p>
+            <p id="quiz-message-text"></p>
+            <button class="btn-quiz" onclick="recommencerQuiz()">Recommencer</button>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 8 : CONTACT -->
+<section id="contact" class="section-contact">
+    <div class="container">
+        <h2 class="section-title">📧 Contactez-Nous</h2>
+        
+        <form method="POST" action="/contact" class="contact-form" id="contact-form">
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn-contact">Envoyer</button>
+        </form>
+        
+        <div id="contact-confirmation" class="contact-confirmation" style="display: none;">
+            <h3>✅ Message envoyé avec succès !</h3>
+            <p>Merci pour votre message. Nous vous répondrons dans les meilleurs délais.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2026 UEFA Champions League Project - NSI 1ère</p>
+        <p>Données : CSV | Serveur : Python http.server | Frontend : HTML/CSS/JavaScript</p>
+    </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
