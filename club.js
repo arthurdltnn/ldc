@@ -7,7 +7,7 @@ const logosClubs = {
     "Ajax": "https://thumbs.dreamstime.com/b/ajax-logo-120474526.jpg",
     "Manchester United": "https://dcassetcdn.com/design_img/138412/98654/98654_1846040_138412_image.png",
     "Inter Milan": "https://logos-marques.com/wp-content/uploads/2020/07/Inter-Milan-Logo.png",
-    "PSG": "https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
+    "PSG": "https://www.color-stickers.com/2150-thickbox_default/stickers-logo-foot-psg.jpg"
 };
 
 document.addEventListener('DOMContentLoaded', chargerPageClub);

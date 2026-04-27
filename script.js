@@ -260,7 +260,8 @@ function afficherClubs() {
         { nom: "Barcelone", titres: 5, pays: "Espagne", img: "https://static.vecteezy.com/ti/vecteur-libre/p1/64548-fc-barcelona-gratuit-vectoriel.jpg" },
         { nom: "Ajax", titres: 4, pays: "Pays-Bas", img: "https://thumbs.dreamstime.com/b/ajax-logo-120474526.jpg" },
         { nom: "Manchester United", titres: 3, pays: "Angleterre", img: "https://dcassetcdn.com/design_img/138412/98654/98654_1846040_138412_image.png" },
-        { nom: "Inter Milan", titres: 3, pays: "Italie", img: "https://logos-marques.com/wp-content/uploads/2020/07/Inter-Milan-Logo.png" }
+        { nom: "Inter Milan", titres: 3, pays: "Italie", img: "https://logos-marques.com/wp-content/uploads/2020/07/Inter-Milan-Logo.png" },
+        { nom: "PSG", titres: 1, pays: "France", img: "https://www.color-stickers.com/2150-thickbox_default/stickers-logo-foot-psg.jpg" }
     ];
     
     const grid = document.getElementById('clubs-grid');
